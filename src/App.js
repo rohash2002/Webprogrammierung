@@ -33,22 +33,19 @@ export default App;
 const Webseite = () => {
     return (
       <div>
-        {/* Start Head */}
+        
         <meta charSet="UTF-8" />
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet" /> {/* Montserrat Bold 800*/}
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" /> {/* Montserrat Regular */}
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet" /> 
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" /> 
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossOrigin="anonymous" />         
-        {/* Ende Head*/}
-        {/* Anfang Body*/}
-        {/* Menüleiste + Logo */}
+        
         <header>
           <div className="container">
             <div className="head-logo">
               <a href="#"> <img src={logo} alt="logo"/> </a>
             </div>
-            {/* Ende Menüleiste + Logo */}
-            {/* Navigation*/}
+            
             <nav>
               <ul>
                 <li><a href="#">HOME</a></li>
@@ -61,10 +58,8 @@ const Webseite = () => {
             </nav>
           </div>
         </header>
-        {/* Ende Navigation*/}
-        {/* Start Main*/}
+        
         <main>
-          {/* Section 1 */}
           <section className="slider">
             <div className="mainpage">
               <img scr={mainpage} />
@@ -72,13 +67,11 @@ const Webseite = () => {
                 <div className="row">
                   <h1>Website / Branding / interactive </h1>
                   <p>We create beautiful, innovative and effective handcrafted brands &amp; website.</p>
-                  <button href="#">View Our work</button>
+                  <button href="#">View Our Work</button>
                 </div>
               </div>
             </div>
           </section>
-          {/* End Section 1 */}
-          {/* Section 2 */}
           <section className="ethanolyellow">
             <div className="container">
               <div className="yellow">
@@ -93,11 +86,8 @@ const Webseite = () => {
               </div>
             </div>
           </section>
-          {/* End Section 2 */} 
-          {/* Section 3 */}
           <section className="separation">
             <div className="container">
-              {/* What we do */}
               <div className="separationtext">
                 <h2>WHAT WE DO WITH
                   <div className="separationyellow">
@@ -109,9 +99,7 @@ const Webseite = () => {
               <div className="eandline">
                 <img src={whatwedo}/>
               </div>
-              {/* End What we do */}
               <section className="textandsymboles">
-                {/* Eigenschaften */}
                 <div className="characteristic">
                   <div className="characteristictop">
                     <div className="top1">
@@ -173,14 +161,10 @@ const Webseite = () => {
                   </div>
                 </div>
               </section>
-              {/* Ende Eigenschaften */}
             </div>
           </section>
-          {/* End Section 3 */}
-          {/* Section 4 */}
           <section className="separation">
             <div className="container">
-              {/* What we do */}
               <div className="separationtext">
                 <h2>THIS IS OUR GREAT 
                 <div className="separationyellow">
@@ -194,8 +178,6 @@ const Webseite = () => {
               </div>
             </div>
           </section>
-          {/* End Section 4 */}    
-          {/* Section 5 */}
           <section className="picandlink">
             <div className="container">
               <ul className="memberlist">
@@ -240,12 +222,9 @@ const Webseite = () => {
                 </li>
               </ul>    
             </div>    
-          </section>
-          {/* End Section 5 */}     
-          {/* Section 6 */} 
+          </section> 
           <section className="separation">
             <div className="container">
-              {/* What we do */}
               <div className="separationtext">
                 <h2>WELCOME WE ARE
                 <div className="separationyellow">
@@ -259,8 +238,6 @@ const Webseite = () => {
               </div>
             </div>
           </section>
-          {/* End Section 6 */}
-          {/* Section 7 */}
           <section className="accordeon">
             <div className="container">
               <div className="listleft">
@@ -317,11 +294,8 @@ const Webseite = () => {
               </div>
             </div>
           </section>
-          {/* End Section 7 */}
-          {/* Section 9 */}
           <section className="separation">
             <div className="container">
-              {/* What we do */}
               <div className="separationtext">
               <h2>OUR BEST
                 <div className="separationyellow">
@@ -335,8 +309,6 @@ const Webseite = () => {
               </div>
             </div>
           </section>
-          {/* End Section 8*/}
-          {/* Section 9 */}
           <section className="process">
             <div className="container">
               <div className="lineleft" />
@@ -378,11 +350,8 @@ const Webseite = () => {
               </div>
             </div> 
           </section>
-          {/* End Section 9*/}
-          {/* Section 10 */}
           <section className="separation">
             <div className="container">
-              {/* What we do */}
               <div className="separationtext">
               <h2>FEEL FREE TO 
                 <div className="separationyellow">
@@ -396,15 +365,11 @@ const Webseite = () => {
               </div>
             </div>
           </section>
-          {/* End Section 10*/}
-          {/* Section 11 */}
           <section className="map">
             <div className="container">
                     <img src={map} className="mapview"/>
                   </div>
           </section>
-          {/* End Section 11*/}
-          {/* Section 12 */}
           <section className="contactdetails">
             <div className="container">
               <div className="lineup">
@@ -429,8 +394,6 @@ const Webseite = () => {
               </div>
             </div>
           </section>
-          {/* End Section 12*/}
-          {/* Section 13 */}
           <section className="contactformular">
             <div className="container">
               <div className="row">
@@ -456,8 +419,6 @@ const Webseite = () => {
               </div>
             </div>
           </section>
-          {/* End Section 13*/}
-          {/* Section 14 */}
           <section className="end">
             <div className="container">
               2015 ethanol. Alkl rights reserved. Theme by Rudhi Sasmito.
@@ -486,9 +447,7 @@ const Webseite = () => {
               </ul>
             </div>    
           </section>
-          {/* End Section 14*/}
         </main>
-        {/* Ende Body*/}
       </div>
     );
   };

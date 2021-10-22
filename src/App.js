@@ -1,22 +1,22 @@
 import './style.css';
 import React from 'react';
 import logo from './img/logo.png';
-import mainpage from './img/frontpage.jpg';
-import logo_bearbeitet from './img/logo-edited.png';
+import frontpage from './img/frontpage.jpg';
+import logo_edited from './img/logo-edited.png';
 import whatwedo from './img/whatwedo.png';
 import road from './img/road.png';
-import cam from './img/camera.png';
-import flag from './img/banner.png';
+import camera from './img/camera.png';
+import banner from './img/banner.png';
 import picture from './img/picture.png';
-import lamp from './img/lightbulb.png';
-import doc from './img/document.png';
-import Anette from './img/Maria.jpg';
-import Sabine from './img/Joanna.jpg';
+import lightbulb from './img/lightbulb.png';
+import document from './img/document.png';
+import Maria from './img/Maria.jpg';
+import Joanna from './img/Joanna.jpg';
 import TV from './img/TV.png';
-import lupe from './img/searchicon.png';
-import fernseher from './img/monitor.png';
-import neuladen from './img/refresh.png';
-import papierflieger from './img/paperplane.png';
+import searchicon from './img/searchicon.png';
+import monitor from './img/monitor.png';
+import refresh from './img/refresh.png';
+import paperplane from './img/paperplane.png';
 import map from './img/map.png'
 
 function App() {
@@ -39,7 +39,7 @@ const Webseite = () => {
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" /> 
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossOrigin="anonymous" />         
-        
+       
         <header>
           <div className="container">
             <div className="head-logo">
@@ -58,11 +58,11 @@ const Webseite = () => {
             </nav>
           </div>
         </header>
-        
+         {/*Seite 1*/}
         <main>
           <section className="slider">
             <div className="mainpage">
-              <img scr={mainpage} />
+              <img scr={frontpage} />
               <div className="container">
                 <div className="row">
                   <h1>Website / Branding / interactive </h1>
@@ -76,7 +76,7 @@ const Webseite = () => {
             <div className="container">
               <div className="yellow">
                 <div className="yellowlogo">
-                  <a> <img src={logo_bearbeitet} /> </a>
+                  <a> <img src={logo_edited} /> </a>
                 </div>
                 <br />
                 <br />
@@ -117,7 +117,7 @@ const Webseite = () => {
                         <p>aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis.</p>
                       </div>
                       <div className="top2picture">
-                        <img src={flag} />
+                        <img src={banner} />
                       </div>
                     </div>
                     <div className="top3">
@@ -133,11 +133,11 @@ const Webseite = () => {
                   <div className="characteristicbottom">
                     <div className="bottom1">
                       <div className="bottom1text">
-                        <h4> UI/DX Design </h4>
+                        <h4> UI/UX Design </h4>
                         <p>aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis.</p>
                       </div>
                       <div className="bottom1picture">
-                        <img src={lamp} />
+                        <img src={lightbulb} />
                       </div>
                     </div>
                     <div className="bottom2">
@@ -146,7 +146,7 @@ const Webseite = () => {
                         <p>aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis.</p>
                       </div>
                       <div className="bottom2picture">
-                        <img src={doc} />
+                        <img src={document} />
                       </div>
                     </div>
                     <div className="bottom3">
@@ -155,7 +155,7 @@ const Webseite = () => {
                         <p>aliquam ipsum ante morbi sed ipsum mollis. Sollicitudin viverra, vel varius eget sit mollis.</p>
                       </div>
                       <div className="bottom3picture">
-                        <img src={cam} />
+                        <img src={camera} />
                       </div>
                     </div>
                   </div>
@@ -182,8 +182,8 @@ const Webseite = () => {
             <div className="container">
               <ul className="memberlist">
                 <li className="member">
-                  <img src={Anette} />
-                  <h3>Maria Sahra</h3>
+                  <img src={Maria} />
+                  <h3>Maria Shara</h3>
                   <p>FOUNDER - DEVELOPER</p>
                   <div className="slidein">
                     <p>Imperdiet nulla sem fringilla, purus enim amet, nascetur faucibus, adipiscing neque ut bibendum, at felis nec in.</p>
@@ -195,9 +195,9 @@ const Webseite = () => {
                   </ul>
                 </li>
                 <li className="member">
-                  <img src={Sabine} />
+                  <img src={Joanna} />
                   <h3>Joanna Doe</h3>
-                  <p>FOUNDER - DEVELOPER</p>
+                  <p>FOUNDER - DESIGNER</p>
                   <div className="slidein">
                     <p>Imperdiet nulla sem fringilla, purus enim amet, nascetur faucibus, adipiscing neque ut bibendum, at felis nec in.</p>
                   </div>
@@ -208,9 +208,9 @@ const Webseite = () => {
                   </ul>
                 </li>
                 <li className="member">
-                  <img src={Anette} />
-                  <h3>Maria Sahra</h3>
-                  <p>FOUNDER - DEVELOPER</p>
+                  <img src={Maria} />
+                  <h3>Serena William</h3>
+                  <p>MOBILE APPS DEVELOPER</p>
                   <div className="slidein">
                     <p>Imperdiet nulla sem fringilla, purus enim amet, nascetur faucibus, adipiscing neque ut bibendum, at felis nec in.</p>
                   </div>
@@ -226,9 +226,9 @@ const Webseite = () => {
           <section className="separation">
             <div className="container">
               <div className="separationtext">
-                <h2>WELCOME WE ARE
+                <h2>WELCOME WE ARE 
                 <div className="separationyellow">
-                    <strong>          ETHANOL</strong>
+                    <strong>           ETHANOL</strong>
                   </div>
                 </h2> 
                 <h5>We design and build functional and beautiful websites</h5>
@@ -255,7 +255,7 @@ const Webseite = () => {
                     <i className="fas fa-pencil-alt" />
                   </div>
                   <div className="text">
-                    <h5>Branding &amp; Development</h5>
+                    <h5>BRANDING &amp; DEVELOPMENT</h5>
                     <p>sub title here</p>
                   </div>
                 </div>
@@ -282,7 +282,7 @@ const Webseite = () => {
                     <i className="fas fa-landmark" />
                   </div>
                   <div className="text">
-                    <h5>CLEAN COMPANY ANALISIS</h5>
+                    <h5>CLEAN COMPANY ANALYSIS</h5>
                     <p>sub title here</p>
                   </div>
                 </div>
@@ -314,7 +314,7 @@ const Webseite = () => {
               <div className="lineleft" />
               <div className="process1">
                 <div className="pic">
-                  <img src={lupe} />
+                  <img src={searchicon} />
                 </div>
                 <div className="text">
                   <h4>RESEARCH</h4>
@@ -323,16 +323,16 @@ const Webseite = () => {
               </div>
               <div className="process1">
                 <div className="pic">
-                  <img src={fernseher} />
+                  <img src={monitor} />
                 </div>
                 <div className="text">
-                  <h4>DESIGN &amp; DEVELOPMENT</h4>
+                  <h4>DESIGN &amp; DEVELOP</h4>
                   <p>Ultrices lacus proin conubia dictum tempus, tempor pede vitae faucibus, sem auctor, molestie diam dictum aliquam. Dolor leo, ridiculus est ut cubilia nec, fermentum arcu praesent, pede etiam. Tempor vestibulum turpis id ligula mi mattis. Eget arcu vitae mauris amet odio.</p>
                 </div>
               </div>
               <div className="process1">
                 <div className="pic">
-                  <img src={neuladen} />
+                  <img src={refresh} />
                 </div>
                 <div className="text">
                   <h4>REFINE</h4>
@@ -341,7 +341,7 @@ const Webseite = () => {
               </div>
               <div className="process1">
                 <div className="pic">
-                  <img src={papierflieger} />
+                  <img src={paperplane} />
                 </div>
                 <div className="text">
                   <h4>LAUNCH</h4>
@@ -382,13 +382,13 @@ const Webseite = () => {
                 <div className="detail1">
                   <div className="detailicon">
                     <i className="fa fa-envelope-o" />
-                    <h4>rohashm2002@gmail.com</h4>
+                    <h4>rudhisasmito@gmail.com</h4>
                   </div>
                 </div>
                 <div className="detail1">
                   <div className="detailicon">
                     <i className="fa fa-phone" />
-                    <h4>+420 1447 69 69 69</h4>
+                    <h4>+613 0000 0000</h4>
                   </div>
                 </div>
               </div>
@@ -413,15 +413,15 @@ const Webseite = () => {
                   </div>
                 </div>
                 <div className="bigsquare">
-                  <textarea className="form-control" rows={7} placeholder="Your massage..." id="message" required data-validation-required-message="Please enter a message." defaultValue={""} />
+                  <textarea className="form-control" rows={7} placeholder="Your Message..." id="message" required data-validation-required-message="Please enter a message." defaultValue={""} />
                 </div>
-                <button className="buttonformular">View Our work</button>
+                <button className="buttonformular">View Our Work</button>
               </div>
             </div>
           </section>
           <section className="end">
             <div className="container">
-              2015 ethanol. Alkl rights reserved. Theme by Rudhi Sasmito.
+              2015 ethanol. All rights reserved. Theme by Rudhi Sasmito.
               <ul className="listsocialicon">
                 <li>
                   <a><i className="fa fa-facebook" /></a>

@@ -1,0 +1,498 @@
+/* Start: Headerbereich */
+header {
+    background-color: white;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.head-logo {
+    font-family: sans-serif;
+    margin-top: 46px;
+    margin-left: 550px;
+    float: left;
+}
+
+header nav {
+    font-family: sans-serif;
+    float: right;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+}
+
+header nav ul li {
+    float: left;
+    list-style-type: none;
+    margin-right: 85px;
+}
+
+header ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+header ul li a:hover {
+    color: #ffcc33;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+/* Ende Header*/
+
+/*Start Main*/
+/*Section1*/
+section.slider {
+    background-image: url("./img/frontpage.jpg"); 
+    min-height: 500px;
+    text-align: center;
+    padding-top: 200px;
+}
+
+section.slider h1 {
+    font-family: sans-serif;
+    font-size: 40px;
+    color: #ffcc33;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+section.slider p {
+    font-family: sans-serif;
+    color: white;
+    font-size: 22px;
+    margin-bottom: 70px;
+}
+
+section.slider a {
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ffcc33;
+}
+/*End Section1*/
+
+/*Section2*/
+section.ethanolyellow{
+    background-color: #ffcc33;
+    min-height: 200px;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+section.ethanolyellow a{
+    margin-bottom: 20px;
+}
+section.ethanolyellow p1{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    
+}
+section.ethanolyellow p2{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    line-height: 35px;
+}
+/*End Section2*/
+/*Section3*/
+    /*WhatWeDo*/
+section.separation{
+    min-height: 300px;
+    text-align: center;
+    padding-top: 100px;
+}
+section.separation h2{
+    font-family: sans-serif;
+    color: grey;
+    font-size: 22px;
+    line-height: 0.00px;
+    padding-right: 90px;
+    margin-top: 30px; 
+    margin-bottom: 30px; 
+}
+.separationyellow{
+    padding-left: 270px;
+    margin-left: 20px;
+    color: #ffcc33;
+    
+}
+section.separation h5{
+    font-family: sans-serif;
+    color: grey;
+    font-size: 22px;
+    line-height: 0px;
+}
+.eandline{
+    margin-top: 10px; 
+    margin-bottom:  -30px;
+}
+    /*End WhatWeDo*/
+    /*Characteristic*/
+section.textandsymboles {
+    background-color: white;
+    min-height: 200px;
+    text-align: center;
+    padding-top: 0.1px;
+    padding-bottom: 700px;
+
+}
+.characteristic{
+    margin: 100px 0px 120px;
+}
+.characteristictop{
+    margin: 15px;
+}
+.top1{
+    position: relative;
+    min-height: 1px;
+}
+.top1text{
+    font-family: sans-serif;
+    float: left;
+    width: 50%; 
+}
+.top1picture{
+    float: left;
+ 
+}
+.top2{
+    position: relative;
+    min-height: 1px;
+}
+.top2text{
+    font-family: sans-serif;
+    float: left;
+    width: 50%; 
+}
+.top2picture{
+    float: left;
+}
+.top3{
+    position: relative;
+    min-height: 1px;
+}
+.top3text{
+    font-family: sans-serif;
+    float: left;
+    width: 50%; 
+}
+.top3picture{
+    float: left;
+}
+
+.bottom1{
+    position: relative;
+    min-height: 1px;
+}
+.bottom1text{
+    font-family: sans-serif;
+    float: right;
+    width: 50%; 
+}
+.bottom1picture{
+    float: right;
+}
+
+.bottom2{
+    position: relative;
+    min-height: 1px;
+}
+.bottom2text{
+    font-family: sans-serif;
+    float: right;
+    width: 50%; 
+}
+.bottom2picture{
+    float: right;
+}
+
+
+.bottom3{
+    position: relative;
+    min-height: 1px;
+}
+.bottom3text{
+    font-family: sans-serif;
+    float: right;
+    width: 50%; 
+}
+.bottom3picture{
+    float: right;
+}
+
+    /*End Characteristic*/
+
+/*End Section3*/
+/*Section4*/
+section.whatwedo{
+    min-height: 300px;
+    text-align: center;
+    padding-top: 100px;
+}
+section.whatwedo h2{
+    font-family: sans-serif;
+    color: grey;
+    font-size: 22px;
+    line-height: 0.00px;
+}
+section.whatwedo h5{
+    font-family: sans-serif;
+    color: grey;
+    font-size: 22px;
+    line-height: 0px;
+}
+.eandline{
+    margin-top: 10px; 
+    margin-bottom:  -30px;
+}
+/*End Section4*/
+/* Section 5 same as Section 3*/
+/* Section 6*/
+section.picandlink{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.memberlist{
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+    text-align: center;
+}
+.member{
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+
+}
+.member h3{
+    color: #333333;
+    font-size: 30px;
+    margin: 20px 10px 10px 10px;
+    text-align: center;
+}
+.member p{
+    margin-top: 0px;
+    color: #ccc;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.slidein{
+    display: none;
+}
+.slidein p{
+    margin-top: 0px;
+    color: #ccc;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.symbol{
+    text-align: center;
+    font-size: 50px;
+    margin: 0px 0px 0px;
+    padding: 0px;
+    
+}
+.symbol li{
+    background-color: white;
+    color: #ffca26;
+    padding: 1px 1px;
+    display: inline-block;
+    margin: 0px 3px;
+}
+
+/* End Section 6*/
+/* Section 7 same as Section 3 and 5*/
+/* Section 7*/
+.accordeon{
+    font-family: sans-serif;
+    background: #F3F3F3;
+    padding: 6em 0px 6em;
+}
+.listleft{
+    margin-left: 6em;
+    padding-bottom: 10px;
+    float: left;
+    width: 31%;
+}
+.listinput{
+    padding: 3em 1em;
+    background: #fff;
+    box-shadow: 0 2px #555;
+    margin-bottom: 1em;
+}
+.figure{
+    float: left;
+}
+.text{
+    float: right;
+    width: 75%;
+}
+.text h5{
+    color: #707070;
+    margin: 0px;
+}
+.text p{
+    margin: 0px;
+    color: #A7A7A7;
+    font-size: 15px;
+}
+.listright{
+    width: 62%;
+    padding-left: 2em;
+    margin-left: 500px;
+    margin-top: 0px;
+}
+.listright h3{
+    color: #000;
+    margin: 0px 0px 1em;
+    font-weight: 700;
+}
+.listright p{
+    color: black;
+    font-size: 15px;
+    width: 80%;
+    padding-bottom: 70px;
+}
+
+
+/* End Section 7*/
+/* Section 8 same as Section 3 and 5 and 7*/
+/* Section 9*/
+.process{
+    background: #F3F3F3;
+    padding: .5em 0px 50em;
+}
+.process1{
+        margin-bottom: 4em;
+}
+.pic{
+    float: left;
+    width: 12%;
+    margin-left: 8em;
+}
+process1.text{
+    font-family: sans-serif;
+    float: left;
+    width: 60%;
+    margin-left: 5em;
+    margin-top: 1em;
+}
+.text h4{
+    color: #000;
+    margin: 0px 0px .5em;
+    font-weight: 600;
+    font-size: 24px;
+}
+.text p{
+    color: #000;
+    font-size: 14px;
+    margin: 0px;
+}
+
+.lineleft{
+    position: absolute;
+    height: 100%;
+    padding: 5px;
+    border-left: 3px solid #ffffff;
+    left: 20%;
+}
+
+/* End Section 9*/
+/* Section 10 same as Section 3 and 5 and 7 and 8*/
+/* Section 11*/
+.map{
+    width: 500px;
+}
+
+.mapview{
+    width: 1200px;
+    position: static;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+/* End Section 11*/
+/* Section 12*/
+.lineup{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.detail1{
+    text-align: center;
+    margin: 60px 0;
+}
+.detailicon{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.detailicon i{
+    text-align: center;
+    font-size: 30px;
+    background-color: #FFCC33;
+    color: #ffffff;
+    padding: 25px 0;
+    border-radius: 50px;
+    border-top-left-radius: 0;
+    margin: 0 10px;
+    margin-right: 20px;
+    width: 82px;
+    height: 35px;
+}
+
+/* End Section 12*/
+/* Section 13*/
+.formularsquare{
+    width: 33.33333333%;
+}
+.yourname{
+    margin-bottom: 15px;
+}
+.form-control{
+    display: block;
+    width: 100%;
+    height: 44px;
+    padding: 10px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: none;
+    transition: none;
+}
+.buttonformular{
+    font-size: 12px;
+    word-spacing: 2px;
+    font-weight: 700;
+    padding: 10px 20px;
+    background-color: #333333;
+    text-transform: uppercase;
+    border-color: #333333;
+    transition: all 0.5s;
+    background-color: #ffcc33;
+    border-color: #ffcc33;
+}
+/* End Section 13*/
+/* Section 14*/
+.end{
+    padding: 3% 0 2% 0;
+    background-color: #e5b112;
+    color: #ffffff;
+}
+.listsocialicon{
+    float: none;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+/* End Section 14*/
+/*End Main*/
